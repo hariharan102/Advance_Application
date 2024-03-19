@@ -1,0 +1,27 @@
+/* FAQPage.css */
+
+.faq-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 30px;
+  }
+  
+  .faq-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
