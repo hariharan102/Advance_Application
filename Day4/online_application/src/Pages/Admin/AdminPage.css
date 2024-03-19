@@ -1,0 +1,134 @@
+/* AdminPage.css */
+
+.admin-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .service-form {
+    margin-bottom: 30px;
+  }
+  
+  .service-form input[type="text"],
+  .service-form textarea,
+  .service-form input[type="number"],
+  .service-form input[type="datetime-local"] {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .service-form input[type="text"]:focus,
+  .service-form textarea:focus,
+  .service-form input[type="number"]:focus,
+  .service-form input[type="datetime-local"]:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+  
+  .worker-details {
+    margin-bottom: 30px;
+  }
+  
+  .worker-details input[type="text"] {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    color: #6c63ff;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service-card ul {
+    padding: 0;
+  }
+  
+  .service-card li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .service-card li strong {
+    color: #333;
+  }
+  
+  .worker-photo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .service-card button {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-card button:hover {
+    background-color: #5248e3;
+  }
+  
+  /* Worker Details Styling */
+  .worker-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .worker-details input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .worker-details input[type="text"]:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+  

@@ -1,0 +1,91 @@
+/* job.css */
+
+/* Styles for the hero section */
+.hero {
+    text-align: center;
+    padding: 20px;
+    height:100vh;
+  }
+  
+  .hero-head {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the search container */
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the job list */
+  .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Styles for each job item */
+  .job {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the job image */
+  .job-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the job name */
+  .job-name {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the job description */
+  .job-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the apply button */
+  .apply-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #218838;
+  }
+  

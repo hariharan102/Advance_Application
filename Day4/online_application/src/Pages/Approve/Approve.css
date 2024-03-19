@@ -1,0 +1,68 @@
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-heading {
+    text-align: center;
+  }
+  
+  .request-list {
+    margin-top: 20px;
+  }
+  
+  .request {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .request:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-info {
+    flex: 1;
+  }
+  
+  .request-actions {
+    margin-left: 20px;
+  }
+  
+  .approve-btn,
+  .reject-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve-btn {
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .reject-btn {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .request {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .request-actions {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
